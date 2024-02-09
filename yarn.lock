@@ -4527,10 +4527,10 @@
   dependencies:
     google-gax "^3.5.2"
 
-"@google-cloud/logging@^10.1.1":
-  version "10.1.1"
-  resolved "https://registry.yarnpkg.com/@google-cloud/logging/-/logging-10.1.1.tgz#c3e9dff453ab85147bc5e017a836cc29e127ac19"
-  integrity sha512-PPtlrE+fWhJssDMcgclfzjWlRypMQxHRqPRZAFvexHcYytpAJ+ppBmczi/30LtC7fyrj9K8wvifNPI+1DSUJ4Q==
+"@google-cloud/logging@^10.5.0":
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/logging/-/logging-10.5.0.tgz#486dafe42228daf4af4a35b5944abcf73314f2c8"
+  integrity sha512-XmlNs6B8lDZvFwFB5M55g9ch873AA2rXSuFOczQ3FOAzuyd/qksf18suFJfcrLMu8lYSr3SQhTE45FlXz4p9pg==
   dependencies:
     "@google-cloud/common" "^4.0.0"
     "@google-cloud/paginator" "^4.0.0"
@@ -4542,11 +4542,11 @@
     extend "^3.0.2"
     gcp-metadata "^4.0.0"
     google-auth-library "^8.0.2"
-    google-gax "^3.0.1"
+    google-gax "^3.5.8"
     on-finished "^2.3.0"
     pumpify "^2.0.1"
     stream-events "^1.0.5"
-    uuid "^8.0.0"
+    uuid "^9.0.0"
 
 "@google-cloud/paginator@^3.0.7":
   version "3.0.7"
@@ -17229,6 +17229,27 @@ google-gax@^3.5.2:
     protobufjs-cli "1.1.1"
     retry-request "^5.0.0"
 
+google-gax@^3.5.8:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/google-gax/-/google-gax-3.6.1.tgz#02c78fc496f5adf86f2ca9145545f4b6575f6118"
+  integrity sha512-g/lcUjGcB6DSw2HxgEmCDOrI/CByOwqRvsuUvNalHUK2iPPPlmAIpbMbl62u0YufGMr8zgE3JL7th6dCb1Ry+w==
+  dependencies:
+    "@grpc/grpc-js" "~1.8.0"
+    "@grpc/proto-loader" "^0.7.0"
+    "@types/long" "^4.0.0"
+    "@types/rimraf" "^3.0.2"
+    abort-controller "^3.0.0"
+    duplexify "^4.0.0"
+    fast-text-encoding "^1.0.3"
+    google-auth-library "^8.0.2"
+    is-stream-ended "^0.1.4"
+    node-fetch "^2.6.1"
+    object-hash "^3.0.0"
+    proto3-json-serializer "^1.0.0"
+    protobufjs "7.2.4"
+    protobufjs-cli "1.1.1"
+    retry-request "^5.0.0"
+
 google-p12-pem@^3.1.3:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/google-p12-pem/-/google-p12-pem-3.1.4.tgz#123f7b40da204de4ed1fbf2fd5be12c047fc8b3b"
@@ -23146,6 +23167,24 @@ protobufjs@7.2.3, protobufjs@^7.0.0:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.2.3.tgz#01af019e40d9c6133c49acbb3ff9e30f4f0f70b2"
   integrity sha512-TtpvOqwB5Gdz/PQmOjgsrGH1nHjAQVCN7JG4A6r1sXRWESL5rNMAiRcBQlCAdKxZcAbstExQePYG8xof/JVRgg==
+  dependencies:
+    "@protobufjs/aspromise" "^1.1.2"
+    "@protobufjs/base64" "^1.1.2"
+    "@protobufjs/codegen" "^2.0.4"
+    "@protobufjs/eventemitter" "^1.1.0"
+    "@protobufjs/fetch" "^1.1.0"
+    "@protobufjs/float" "^1.0.2"
+    "@protobufjs/inquire" "^1.1.0"
+    "@protobufjs/path" "^1.1.2"
+    "@protobufjs/pool" "^1.1.0"
+    "@protobufjs/utf8" "^1.1.0"
+    "@types/node" ">=13.7.0"
+    long "^5.0.0"
+
+protobufjs@7.2.4:
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/protobufjs/-/protobufjs-7.2.4.tgz#3fc1ec0cdc89dd91aef9ba6037ba07408485c3ae"
+  integrity sha512-AT+RJgD2sH8phPmCf7OUZR8xGdcJRga4+1cOaXJ64hvcSkVhNcRHOwIxUatPH15+nj59WAGTDv3LSGZPEQbJaQ==
   dependencies:
     "@protobufjs/aspromise" "^1.1.2"
     "@protobufjs/base64" "^1.1.2"
