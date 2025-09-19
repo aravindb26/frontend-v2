@@ -27,7 +27,7 @@
     "@web3-onboard/injected-wallets": "^2.10.6",
     "@web3-onboard/react": "^2.8.13",
     "@web3-onboard/walletconnect": "^2.4.6",
-    "axios": "^0.27.2",
+    "axios": "^1.12.0",
     "bnc-notify": "^1.9.8",
     "copy-to-clipboard": "^3.3.3",
     "downshift": "^6.1.7",
